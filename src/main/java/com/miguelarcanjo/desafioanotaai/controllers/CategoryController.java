@@ -28,7 +28,6 @@ public class CategoryController {
     public ResponseEntity<List<Category>> getAll(){
             List<Category> categories = this.service.getAll();
             return ResponseEntity.ok().body(categories);
-
     }
 
     @PutMapping("/{id}")
