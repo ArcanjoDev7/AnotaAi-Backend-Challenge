@@ -53,7 +53,7 @@ DELETE /api/category/{id} - Excluir uma categoria
    "descrição": "",
    "proprietárioId": "4444444"
 }
-``
+````
 
 ## Contribuindo
 
